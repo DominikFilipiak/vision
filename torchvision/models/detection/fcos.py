@@ -325,6 +325,7 @@ class FCOS(nn.Module):
         >>> import torchvision
         >>> from torchvision.models.detection import FCOS
         >>> from torchvision.models.detection.anchor_utils import AnchorGenerator
+        >>> from torchvision.models.mobilenetv2 import MobileNet_V2_Weights
         >>> # load a pre-trained model for classification and return
         >>> # only the features
         >>> backbone = torchvision.models.mobilenet_v2(weights=MobileNet_V2_Weights.DEFAULT).features
